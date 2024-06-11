@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22123" started-at="2024-06-11T20:03:07 IST" finished-at="2024-06-11T20:03:30 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22123" started-at="2024-06-11T20:03:07 IST" finished-at="2024-06-11T20:03:30 IST">
+      <class name="testcases.E2ETest">
+        <test-method status="PASS" signature="SetUpBowser()[pri:0, instance:testcases.E2ETest@3c419631]" name="SetUpBowser" is-config="true" duration-ms="5564" started-at="2024-06-11T20:03:07 IST" finished-at="2024-06-11T20:03:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBowser -->
+        <test-method status="PASS" signature="LoginToApplication(java.lang.String,java.lang.String)[pri:1, instance:testcases.E2ETest@3c419631]" name="LoginToApplication" duration-ms="1354" started-at="2024-06-11T20:03:15 IST" data-provider="loginDetails" finished-at="2024-06-11T20:03:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method status="PASS" signature="addCourse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.E2ETest@3c419631]" name="addCourse" duration-ms="5839" started-at="2024-06-11T20:03:16 IST" data-provider="courseDetails" finished-at="2024-06-11T20:03:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\intel\\Desktop\\header.jpg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SeleniumByHarshit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Automation Using Selenium with BDD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Harshit]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCourse -->
+        <test-method status="PASS" signature="deleteCourse()[pri:3, instance:testcases.E2ETest@3c419631]" name="deleteCourse" duration-ms="5194" started-at="2024-06-11T20:03:22 IST" finished-at="2024-06-11T20:03:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCourse -->
+        <test-method status="PASS" signature="signOut()[pri:4, instance:testcases.E2ETest@3c419631]" name="signOut" duration-ms="600" started-at="2024-06-11T20:03:28 IST" finished-at="2024-06-11T20:03:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.E2ETest@3c419631]" name="closeBrowser" is-config="true" duration-ms="911" started-at="2024-06-11T20:03:29 IST" finished-at="2024-06-11T20:03:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.E2ETest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
