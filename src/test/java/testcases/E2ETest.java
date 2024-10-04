@@ -14,6 +14,7 @@ import pages.ManageCourses;
 
 public class E2ETest extends BaseClass   {
 
+	//Test1
 	@Test(dataProvider = "loginDetails", dataProviderClass = CustomDataProvider.class, priority = 1)
 	public void LoginToApplication(String email, String password)
 	{
