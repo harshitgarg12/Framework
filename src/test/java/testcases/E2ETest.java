@@ -23,6 +23,7 @@ public class E2ETest extends BaseClass   {
 		assertTrue(driver.findElement(By.xpath("//button[text()='Cart']")).isDisplayed());
 	}
 	
+	//Test2
 	@Test(dataProvider = "courseDetails", dataProviderClass = CustomDataProvider.class,priority = 2)
 	public void addCourse(String file, String courseName, String description, String instructor, String price,
 			String startDate, String endDate, String category, String startMonth, String endMonth)
